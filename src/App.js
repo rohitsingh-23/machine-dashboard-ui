@@ -28,7 +28,7 @@ function App() {
           <Line />
           <Pi />
         </div>
-        <div className="flex justify-between w-[80vw] m-[auto]">
+        <div className="flex justify-between items-center w-[80vw] m-[auto]">
           <Table />
           <ProfileCard />
         </div>
