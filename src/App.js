@@ -8,12 +8,12 @@ import SideBar from "./components/SideBar";
 function App() {
   return (
     <div className="App bg-[#e8edff] flex">
-      <div>
+      <div className="">
         <SideBar />
       </div>
-      <div className="w-[90vw]">
-        <div className="flex justify-between items-end w-[90vw] px-[2vw] pt-[1vh]">
-          <p className="text-[18px]">Good Morining ! 🌞</p>
+      <div className="w-[85vw]">
+        <div className="flex justify-between items-end w-[85vw] px-[2vw] pt-[1vh]">
+          <p className="text-[18px]">Good Morning ! 🌞</p>
           <div className="flex items-center rounded-lg px-[10px] mr-[3vw] py-[5px] bg-white">
             <div className="pr-[10px]">
               <p className="text-[18px]">John Doe</p>
@@ -24,11 +24,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex w-[90vw]  mt-[5%] mb-[10%]">
-          <Line />
-          <Pi />
+        <div className="flex w-[80vw] justify-between items-center  mt-[2%] mb-[4%]">
+          <div className="bg-white shadow-md p-[10px] rounded-lg ml-[30px]">
+            <Line />
+          </div>
+          <div className="bg-white shadow-md p-[10px] rounded-lg">
+            <Pi />
+          </div>
         </div>
-        <div className="flex justify-between items-center w-[80vw] m-[auto]">
+        <div className="flex w-[80vw] justify-between items-center  mt-[2%] mb-[4%] ">
           <Table />
           <ProfileCard />
         </div>
